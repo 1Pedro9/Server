@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Login</title>
+    <!-- <link rel="shortcut icon" href="logo.jpeg" type="image/x-icon"> -->
+</head>
+<body>
+    
+    <style>
+        body {
+            background: linear-gradient(to right, #e0e1e1, #c4c4c4);
+        }
+        .container {
+            max-width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            background-size: contain;
+            padding: 50px 0;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+        .small {
+            background: rgb(145, 145, 145, 0.8);
+            width: 80%;
+            margin-left: 10%;
+            /* opacity: 0.8; */
+            border-radius: 10px;
+            max-height: 100%;
+        }
+
+        .small input,
+        .small label,
+        .small button {
+            width: 80%;
+            margin-left: 6%;
+        }
+        .small input,
+        .small button {
+            border-radius: 12px;
+            font-size: 14px;
+            border: 1px solid black;
+            outline: none;
+            padding: 10px 2%;
+            opacity: 1;
+        }
+        .small label {
+            color: #e0e1e1;
+            margin-left: 12%;
+        }
+
+        .small .login {
+            width: 84%;
+            margin-top: 20px;
+            cursor: pointer;
+            background: #bbb;
+            color: white;
+            transition: all 0.5s ease;
+        }
+        .small .login:hover {
+            background: #eee;
+            color: black;
+            transition: all 0.5s ease;
+        }
+    </style>
+
+    <div class="container">
+        <div class="small">
+            <br><br><br><br>
+            <label for="">Username</label><br>
+            <input type="text"><br> <br>
+            <label for="">Password</label><br>
+            <input type="password"><br>
+            <button class="login">Login</button>
+            <br><br><br><br><br><br>
+        </div>
+    </div>
+
+</body>
+</html>
